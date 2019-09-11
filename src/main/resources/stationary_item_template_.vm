@@ -1,0 +1,9 @@
+Total no of items in shop $item.size()
+
+You can Buy any Item from the shop with price and item name listed below:
+
+#foreach($item in $items)
+#if($item.name!="Cards")
+Item:$item.name
+Price:$item.price
+#end #end
